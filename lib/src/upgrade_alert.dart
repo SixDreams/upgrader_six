@@ -231,6 +231,7 @@ class UpgradeAlertState extends State<UpgradeAlert> {
     widget.upgrader.saveLastAlerted();
 
     showDialog(
+      useSafeArea: false,
       barrierDismissible: barrierDismissible,
       context: context,
       builder: (BuildContext context) {
