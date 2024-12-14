@@ -1,6 +1,19 @@
+## 11.3.1
+
+- Minor syntax change to fix compiler warning.
+- Added new method MockUpgraderOS.currentTypeFormatted to return the OS type pretty formatted.
+
+## 11.3.0
+
+- [429] Improved the Hindi ('hi') translations. (thanks to @aruhant)
+- [456] Fixed Italian ('it') language translations. (thanks to @marcorizza)
+- [459] Allowed for device_info_plus 11.0.0.
+
 ## 11.2.0
 
 - [432] On CupertinoAlertDialog configured CupertinoActionButton isDefaultAction property for the Update button. Thanks to @lukemmtt for the change.
+- Added new language translations for Pashto ('ps'). (thanks to @isshort)
+- Removed old travis.yaml CI file.
 
 ## 11.1.0
 
